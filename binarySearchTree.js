@@ -211,7 +211,7 @@ class BinarySearchTree{
         let curr = this.root
         let closest = curr.value
         while(curr){
-            if(Math.abs(target - curr) < Math.abs(target - closest)){
+            if(Math.abs(target - curr.value) < Math.abs(target - closest)){
                 closest = curr.value
             }
 
